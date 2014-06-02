@@ -15,11 +15,11 @@ A cheetsheet for [gulp](https://github.com/gulpjs/gulp).
 
 (coming soon)
 
-### CoffeeScript in English [p1](dist/en-coffee-p1.pdf), [p2](dist/en-coffee-p2.pdf)
+### CoffeeScript in English [p1](raw/master/dist/en-coffee-p1.pdf), [p2](raw/master/dist/en-coffee-p2.pdf)
 
-[![en-coffee-p1](images/en-coffee-p1.png)](dist/en-coffee-p1.pdf)
+[![en-coffee-p1](images/en-coffee-p1.png)](raw/master/dist/en-coffee-p1.pdf)
 
-[![en-coffee-p2](images/en-coffee-p2.png)](dist/en-coffee-p2.pdf)
+[![en-coffee-p2](images/en-coffee-p2.png)](raw/master/dist/en-coffee-p2.pdf)
 
 
 ## License
