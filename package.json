@@ -1,0 +1,27 @@
+{
+  "name": "gulp-cheetsheet",
+  "version": "1.0.0",
+  "homepage": "https://github.com/osscafe/gulp-cheetsheet",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/osscafe/gulp-cheetsheet.git"
+  },
+  "description": "A cheetsheet for gulp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "cheetsheet",
+    "sketch"
+  ],
+  "author": "Tsutomu Kawamura <tsutomu@librize.com>",
+  "license": "CC-BY-SA 4.0",
+  "devDependencies": {
+    "coffee-script": "*",
+    "event-stream": "*",
+    "gulp": "*",
+    "gulp-sketch": "*",
+    "gulp-rename": "*"
+  }
+}
