@@ -1,6 +1,6 @@
-# gulp-cheetsheet
+# gulp-cheatsheet
 
-A cheetsheet for [gulp](https://github.com/gulpjs/gulp).
+A cheatsheet for [gulp](https://github.com/gulpjs/gulp).
 
 
 ## Usage
