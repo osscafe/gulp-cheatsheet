@@ -28,9 +28,50 @@ A cheatsheet for [gulp](https://github.com/gulpjs/gulp).
 | 日本語 /<br>JavaScript | [![ja-js-p1](images/ja-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/ja-js-p1.pdf) | [![ja-js-p2](images/ja-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/ja-js-p2.pdf) |
 
 
+## Example codes
+
+### Commands
+
+- install global:
+	```$ npm install -g gulp```
+- install local:
+	```$ npm install --save-dev gulp```
+	```$ npm install --save-dev gulp-other-plugins```
+- run task:
+	```$ gulp task_name```
+- run multi tasks:
+	```$ gulp task_name other_task```
+
+
+### JavaScript: gulpfile.js
+
+- [Single Dest & Watch](examples/js/watch.js)
+- [Multi Dest](examples/js/multi-dest.js)
+- [Incremental Rebuilding](examples/js/incremental-rebuilding.js)
+- [Only Changed](examples/js/only-changed.js)
+- [Async Streams](examples/js/async-streams.js)
+- [Serial Join](examples/js/serial-join.js)
+- [Stream Array](examples/js/stream-array.js)
+
+### CoffeeScript: gulpfile.coffee
+
+- [Single Dest & Watch](examples/js/watch.coffee)
+- [Multi Dest](examples/js/multi-dest.coffee)
+- [Incremental Rebuilding](examples/js/incremental-rebuilding.coffee)
+- [Only Changed](examples/js/only-changed.coffee)
+- [Async Streams](examples/js/async-streams.coffee)
+- [Serial Join](examples/js/serial-join.coffee)
+- [Stream Array](examples/js/stream-array.coffee)
+
 
 ## License
 
 - Made in [OpenSource Cafe](http://www.osscafe.net/en/)
 - By [Tsutomu Kawamura](https://github.com/cognitom)
 - [CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
+
+
+## See also
+
+- [gulp documentation](https://github.com/gulpjs/gulp/tree/master/docs)
+- [Official Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
