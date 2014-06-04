@@ -10,15 +10,15 @@
 	<string>e645bc992e78ea0d8f54ab21bcdc83987015d34b</string>
 	<key>fonts</key>
 	<array>
-		<string>Lobster1.4</string>
-		<string>AvenirNext-Bold</string>
-		<string>Helvetica</string>
 		<string>AvenirNext-Regular</string>
-		<string>Helvetica-Oblique</string>
+		<string>Helvetica</string>
+		<string>AvenirNext-Bold</string>
+		<string>Lobster1.4</string>
 		<string>AndaleMono</string>
+		<string>Helvetica-Oblique</string>
 	</array>
 	<key>length</key>
-	<integer>1999638</integer>
+	<integer>1916166</integer>
 	<key>version</key>
 	<integer>36</integer>
 </dict>
