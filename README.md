@@ -21,11 +21,11 @@ A cheatsheet for [gulp](https://github.com/gulpjs/gulp).
 
 ## Editions
 
-
-----|----|----
-English<br>JavaScript | [![en-js-p1](images/en-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p1.pdf) | [![en-js-p2](images/en-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf)
-English<br>CoffeeScript | [![en-coffee-p1](images/en-coffee-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p1.pdf) | [![en-coffee-p2](images/en-coffee-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p2.pdf)
-日本語<br>JavaScript | [![ja-js-p1](images/ja-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/ja-js-p1.pdf) | [![ja-js-p2](images/en-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf)
+|  | p.1 | p.2 |
+|----|:--:|:--:|
+| English /<br>JavaScript | [![en-js-p1](images/en-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p1.pdf) | [![en-js-p2](images/en-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf) |
+| English /<br>CoffeeScript | [![en-coffee-p1](images/en-coffee-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p1.pdf) | [![en-coffee-p2](images/en-coffee-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p2.pdf) |
+| 日本語 /<br>JavaScript | [![ja-js-p1](images/ja-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/ja-js-p1.pdf) | [![ja-js-p2](images/en-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf) |
 
 
 
