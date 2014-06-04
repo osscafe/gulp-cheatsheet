@@ -11,9 +11,12 @@ A cheatsheet for [gulp](https://github.com/gulpjs/gulp).
 
 ## Editions
 
-### JavaScript in English
+### JavaScript in English [p1](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p1.pdf), [p2](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf)
 
-(coming soon)
+[![en-js-p1](images/en-js-p1.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p1.pdf)
+
+[![en-js-p2](images/en-js-p2.png)](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-js-p2.pdf)
+
 
 ### CoffeeScript in English [p1](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p1.pdf), [p2](https://github.com/osscafe/gulp-cheetsheet/raw/master/dist/en-coffee-p2.pdf)
 

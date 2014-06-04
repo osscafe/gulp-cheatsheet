@@ -3,7 +3,7 @@ es = require 'event-stream'
 sketch = require 'gulp-sketch'
 rename = require 'gulp-rename'
 
-pages = ['en-coffee']
+pages = ['en-js', 'en-coffee']
 
 gulp.task 'pdf', ->
   es.concat.apply null,
