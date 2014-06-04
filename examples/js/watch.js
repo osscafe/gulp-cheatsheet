@@ -5,7 +5,7 @@ var uglify = require('gulp-uglify');
 gulp.task('js', function(){
     return gulp.src('./js/src/*.coffee')
         .pipe(coffee())
-        .pipe(uglify());
+        .pipe(uglify())
         .pipe(gulp.dest('./js/'));
 });
 gulp.task('watch', function(){
