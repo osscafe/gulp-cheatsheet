@@ -55,13 +55,13 @@ A cheatsheet for [gulp](https://github.com/gulpjs/gulp).
 
 ### CoffeeScript: gulpfile.coffee
 
-- [Single Dest & Watch](examples/js/watch.coffee)
-- [Multi Dest](examples/js/multi-dest.coffee)
-- [Incremental Rebuilding](examples/js/incremental-rebuilding.coffee)
-- [Only Changed](examples/js/only-changed.coffee)
-- [Async Streams](examples/js/async-streams.coffee)
-- [Serial Join](examples/js/serial-join.coffee)
-- [Stream Array](examples/js/stream-array.coffee)
+- [Single Dest & Watch](examples/coffee/watch.coffee)
+- [Multi Dest](examples/coffee/multi-dest.coffee)
+- [Incremental Rebuilding](examples/coffee/incremental-rebuilding.coffee)
+- [Only Changed](examples/coffee/only-changed.coffee)
+- [Async Streams](examples/coffee/async-streams.coffee)
+- [Serial Join](examples/coffee/serial-join.coffee)
+- [Stream Array](examples/coffee/stream-array.coffee)
 
 
 ## License
