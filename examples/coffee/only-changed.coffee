@@ -1,5 +1,5 @@
 gulp = require 'gulp'
-changed = require 'gulp-cached'
+changed = require 'gulp-changed'
 uglify = require 'gulp-uglify'
 
 gulp.task 'script', ->
