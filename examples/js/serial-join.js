@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var streamqueue = require('gulp-streamqueue');
+var streamqueue = require('streamqueue');
 var less = require('gulp-less');
 var cssimport = require('gulp-cssimport');
 var autoprefier = require('gulp-autoprefixer');
