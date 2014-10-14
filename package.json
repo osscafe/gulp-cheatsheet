@@ -1,6 +1,6 @@
 {
   "name": "gulp-cheetsheet",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "homepage": "https://github.com/osscafe/gulp-cheetsheet",
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
   "license": "CC-BY-SA 4.0",
   "devDependencies": {
     "coffee-script": "*",
-    "event-stream": "*",
     "gulp": "*",
-    "gulp-sketch": "*",
-    "gulp-rename": "*"
+    "gulp-foreach": "^0.0.1",
+    "gulp-rename": "*",
+    "gulp-sketch": "^0.0.6"
   }
 }

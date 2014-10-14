@@ -1,26 +1,27 @@
-gulp = require 'gulp'
-es = require 'event-stream'
-sketch = require 'gulp-sketch'
-rename = require 'gulp-rename'
+path    = require 'path'
+gulp    = require 'gulp'
+foreach = require 'gulp-foreach'
+sketch  = require 'gulp-sketch'
+rename  = require 'gulp-rename'
 
-pages = ['en-js', 'en-coffee', 'ja-js', 'cn-js']
+gulp.task 'default', ['pdf', 'png']
 
 gulp.task 'pdf', ->
-  es.concat.apply null,
-    for page in pages
-      gulp.src "./src/#{page}.sketch"
-      .pipe sketch
-        export: 'artboards',
-        formats: 'pdf'
-      .pipe rename prefix: "#{page}-"
-      .pipe gulp.dest './dist/'
+  gulp.src './src/*.sketch'
+  .pipe sketchWithPrefix 'pdf'
+  .pipe gulp.dest './dist/'
 
 gulp.task 'png', ->
-  es.concat.apply null,
-    for page in pages
-      gulp.src "./src/#{page}.sketch"
-      .pipe sketch
-        export: 'artboards',
-        formats: 'png'
-      .pipe rename prefix: "#{page}-"
-      .pipe gulp.dest './images/'
+  gulp.src './src/*.sketch'
+  .pipe sketchWithPrefix 'png'
+  .pipe gulp.dest './images/'
+
+# inline-plugin: sketch + add original file name as prefix
+sketchWithPrefix = (format) ->
+  foreach (stream, file) ->
+    basename = path.basename file.path, '.sketch'
+    gulp.src file.path
+    .pipe sketch
+      export: 'artboards',
+      formats: format
+    .pipe rename prefix: "#{basename}-"
