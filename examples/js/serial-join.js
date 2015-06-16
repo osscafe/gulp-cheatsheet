@@ -3,6 +3,8 @@ var streamqueue = require('streamqueue');
 var less = require('gulp-less');
 var cssimport = require('gulp-cssimport');
 var autoprefier = require('gulp-autoprefixer');
+var concat = require('gulp-concat');
+var minifyCss = require('gulp-minify-css');
 
 gulp.task('css', function(){
     return streamqueue({ objectMode: true },
@@ -13,5 +15,5 @@ gulp.task('css', function(){
             .pipe(autoprefixer('last 2 versions')))
         .pipe(concat('app.css'))
         .pipe(minifyCss())
-        .pipe(gulp.dest('./css/'))
+        .pipe(gulp.dest('./css/'));
 });

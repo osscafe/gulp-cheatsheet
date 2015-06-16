@@ -3,7 +3,7 @@ es = require 'event-stream'
 consolidate = require 'gulp-consolidate'
 rename = require 'gulp-rename'
 
-data = 
+data =
     apple:
         title: 'Apple Cake'
         attrs: some_data

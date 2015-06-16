@@ -8,4 +8,3 @@ gulp.task('js', function(){
         .pipe(uglify())
         .pipe(gulp.dest('./dist/'));
 });
-
