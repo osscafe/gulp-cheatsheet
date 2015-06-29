@@ -1,6 +1,6 @@
 {
   "name": "gulp-cheetsheet",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://github.com/osscafe/gulp-cheetsheet",
   "repository": {
     "type": "git",
@@ -18,10 +18,10 @@
   "author": "Tsutomu Kawamura <tsutomu@librize.com>",
   "license": "CC-BY-SA 4.0",
   "devDependencies": {
-    "coffee-script": "*",
-    "gulp": "*",
-    "gulp-foreach": "^0.0.1",
-    "gulp-rename": "*",
-    "gulp-sketch": "^0.0.9"
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-foreach": "^0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sketch": "^0.0.10"
   }
 }
