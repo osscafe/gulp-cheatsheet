@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var streamqueue = require('streamqueue');
 var less = require('gulp-less');
 var cssimport = require('gulp-cssimport');
-var autoprefier = require('gulp-autoprefixer');
+var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
 
